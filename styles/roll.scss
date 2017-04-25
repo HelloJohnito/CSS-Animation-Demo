@@ -1,12 +1,26 @@
 .roll{
   background-color: blue;
+  display: flex;
+  justify-content: center;
 }
 
-.roll:hover .google-roll{
-  transform: translate(200px, 0px) rotate(360deg)
+.roll:hover .google-roll-1{
+  transform: translate(250px, 0px) rotate(360deg)
 }
 
-.google-roll{
+.google-roll-1{
   transition: transform 300ms ease-in-out;
   pointer-events: none
 }
+
+
+.roll:hover .google-roll-3{
+  transform: translate(-250px, 0px) rotate(-360deg)
+}
+
+.google-roll-3{
+  transition: transform 300ms ease-in-out;
+  pointer-events: none
+}
+//use animation-direction: alternate
+//make the two outside collide in
