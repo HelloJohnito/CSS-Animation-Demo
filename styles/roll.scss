@@ -1,0 +1,12 @@
+.roll{
+  background-color: blue;
+}
+
+.roll:hover .google-roll{
+  transform: translate(200px, 0px) rotate(360deg)
+}
+
+.google-roll{
+  transition: transform 300ms ease-in-out;
+  pointer-events: none
+}
