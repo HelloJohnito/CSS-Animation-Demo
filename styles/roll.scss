@@ -9,7 +9,7 @@
 }
 
 .google-roll-1{
-  transition: transform 300ms ease-in-out;
+  transition: transform 1000ms ease-in-out;
   pointer-events: none
 }
 
@@ -18,9 +18,9 @@
   transform: translate(-250px, 0px) rotate(-360deg)
 }
 
+
 .google-roll-3{
-  transition: transform 300ms ease-in-out;
+  transition: transform 1000ms ease-in-out;
   pointer-events: none
 }
 //use animation-direction: alternate
-//make the two outside collide in

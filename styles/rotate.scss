@@ -1,13 +1,16 @@
 .rotate{
   background-color: pink;
+  display: flex;
+  justify-content: center;
 }
 
 
-.rotate:hover .google-rotate-x{
-  animation: google-rotate-x 5s infinite linear;
+.rotate:hover .twitter-rotate-x{
+  perspective: 300px;
+  animation: twitter-rotate-x 5s infinite linear;
 }
 
-@keyframes google-rotate-x {
+@keyframes twitter-rotate-x {
   0% {
     transform: rotateX(0);
   }
@@ -17,11 +20,12 @@
 }
 
 
-.rotate:hover .google-rotate-y{
-  animation: google-rotate-y 5s infinite linear;
+.rotate:hover .twitter-rotate-y{
+  perspective: 300px;
+  animation: twitter-rotate-y 5s infinite linear;
 }
 
-@keyframes google-rotate-y {
+@keyframes twitter-rotate-y {
   0% {
     transform: rotateY(0);
   }
@@ -31,11 +35,12 @@
 }
 
 
-.rotate:hover .google-rotate-z{
-  animation: google-rotate-z 5s infinite linear;
+.rotate:hover .twitter-rotate-z{
+  perspective: 300px;
+  animation: twitter-rotate-z 5s infinite linear;
 }
 
-@keyframes google-rotate-z {
+@keyframes twitter-rotate-z {
   0% {
     transform: rotateZ(0);
   }
